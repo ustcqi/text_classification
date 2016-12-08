@@ -2,6 +2,13 @@
 This project mainly focus on the topic of text classification, including english and chinese text.<br />
 Several open project have been used, such as Scikit-Learn, Gensim, Numpy, Pandas, Matplotlib. <br />
 
+##Evironment:
+Python 2.7
+Scikit-learn 0.18
+
+##Usage:
+python text_classification 
+
 ##Processing Steps of Text Classification:
 ####Step 1: Data Analysis
 >1, distribution of all categories <br/>
