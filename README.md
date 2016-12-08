@@ -9,33 +9,33 @@ Several open project have been used, such as Scikit-Learn, Gensim, Numpy, Pandas
 
 ####Step 2: Text Preprocessing
 Tokenization:
->1, remove the punctuation
->2, hyphenation
->3, remove stop words
->4, remove high-frequency and low-frequency words
+>1, remove the punctuation <br />
+>2, hyphenation <br/>
+>3, remove stop words <br/>
+>4, remove high-frequency and low-frequency words <br />
 
 Normalization:
->1, case-folding
->2, stemming
+>1, case-folding <br />
+>2, stemming <br />
 
 ####Step 3: Feature Selection
->1, L1 Reg and IG ,removing stop words
->2, Removing the words appearance in all the documents and with high frequency
+>1, L1 Reg and IG ,removing stop words <br />
+>2, Removing the words appearance in all the documents and with high frequency <br />
 
 ####Step 4: Represention of the text
->1, tfidf
->2, Bag-of-words
->3, One-Hot
->4, word2vec
+>1, tfidf <br />
+>2, Bag-of-words <br />
+>3, One-Hot <br />
+>4, word2vec <br />
 
 ####Step 5: Regularization
->L1 or L2
+>L1 or L2 <br />
 
 ####Step 6: Search for Hyperparameters
->GridSearch
+>GridSearch <br />
 
 ####Step 7: Cross-Validation
->10 fold cross-validation
+>10 fold cross-validation <br />
 
 ####Step 8: Machine Learning Pipeline
 
