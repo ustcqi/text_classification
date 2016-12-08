@@ -9,6 +9,13 @@ Scikit-learn 0.18
 ##Usage:
 python text_classification 
 
+##Result:
+>text_classification/src/result <br />
+>count.png <br />
+>tfidf.png <br />
+>text_cls.log <br />
+>comparison.csv <br />
+
 ##Processing Steps of Text Classification:
 ####Step 1: Data Analysis
 >1, distribution of all categories <br/>
