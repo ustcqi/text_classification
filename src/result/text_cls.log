@@ -1,0 +1,83 @@
+16-12-08 21:17:33 INFO data_size=6915	Counter(Y)=Counter({'earn': 3923, 'acq': 2292, 'crude': 374, 'trade': 326})
+16-12-08 21:22:13 INFO estimator=mlp	vectorizer=count_vectorizer	best_params={'mlp__hidden_layer_sizes': 32, 'mlp__learning_rate': 'constant', 'mlp__max_iter': 200, 'mlp__tol': 0.001}
+16-12-08 21:22:13 INFO proportion=0.3	data_size=2074	model=mlp_count_vectorizer	accuracy=0.9663
+16-12-08 21:22:45 INFO estimator=svc	vectorizer=count_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 21:22:46 INFO proportion=0.3	data_size=2074	model=svc_count_vectorizer	accuracy=0.9679
+16-12-08 21:22:53 INFO estimator=lr	vectorizer=count_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l2', 'lr__C': 0.9}
+16-12-08 21:22:53 INFO proportion=0.3	data_size=2074	model=lr_count_vectorizer	accuracy=0.9727
+16-12-08 21:23:00 INFO estimator=rf	vectorizer=count_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 21:23:00 INFO proportion=0.3	data_size=2074	model=rf_count_vectorizer	accuracy=0.9535
+16-12-08 21:30:56 INFO estimator=mlp	vectorizer=tfidf_vectorizer	best_params={'mlp__hidden_layer_sizes': 32, 'mlp__learning_rate': 'adaptive', 'mlp__max_iter': 200, 'mlp__tol': 0.001}
+16-12-08 21:30:56 INFO proportion=0.3	data_size=2074	model=mlp_tfidf_vectorizer	accuracy=0.9679
+16-12-08 21:31:35 INFO estimator=svc	vectorizer=tfidf_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 21:31:35 INFO proportion=0.3	data_size=2074	model=svc_tfidf_vectorizer	accuracy=0.9775
+16-12-08 21:31:42 INFO estimator=lr	vectorizer=tfidf_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l2', 'lr__C': 0.95}
+16-12-08 21:31:42 INFO proportion=0.3	data_size=2074	model=lr_tfidf_vectorizer	accuracy=0.9486
+16-12-08 21:31:48 INFO estimator=rf	vectorizer=tfidf_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 21:31:48 INFO proportion=0.3	data_size=2074	model=rf_tfidf_vectorizer	accuracy=0.9518
+16-12-08 21:37:41 INFO estimator=mlp	vectorizer=count_vectorizer	best_params={'mlp__hidden_layer_sizes': 32, 'mlp__learning_rate': 'adaptive', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 21:37:41 INFO proportion=0.5	data_size=3457	model=mlp_count_vectorizer	accuracy=0.963
+16-12-08 21:38:21 INFO estimator=svc	vectorizer=count_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 21:38:21 INFO proportion=0.5	data_size=3457	model=svc_count_vectorizer	accuracy=0.963
+16-12-08 21:38:29 INFO estimator=lr	vectorizer=count_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l1', 'lr__C': 0.95}
+16-12-08 21:38:29 INFO proportion=0.5	data_size=3457	model=lr_count_vectorizer	accuracy=0.9728
+16-12-08 21:38:36 INFO estimator=rf	vectorizer=count_vectorizer	best_params={'rf__bootstrap': True, 'rf__n_estimators': 20}
+16-12-08 21:38:36 INFO proportion=0.5	data_size=3457	model=rf_count_vectorizer	accuracy=0.9393
+16-12-08 21:48:25 INFO estimator=mlp	vectorizer=tfidf_vectorizer	best_params={'mlp__hidden_layer_sizes': 64, 'mlp__learning_rate': 'adaptive', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 21:48:25 INFO proportion=0.5	data_size=3457	model=mlp_tfidf_vectorizer	accuracy=0.9734
+16-12-08 21:49:18 INFO estimator=svc	vectorizer=tfidf_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.95, 'svc__tol': 0.001}
+16-12-08 21:49:18 INFO proportion=0.5	data_size=3457	model=svc_tfidf_vectorizer	accuracy=0.9757
+16-12-08 21:49:27 INFO estimator=lr	vectorizer=tfidf_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l1', 'lr__C': 0.95}
+16-12-08 21:49:27 INFO proportion=0.5	data_size=3457	model=lr_tfidf_vectorizer	accuracy=0.9537
+16-12-08 21:49:35 INFO estimator=rf	vectorizer=tfidf_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 21:49:35 INFO proportion=0.5	data_size=3457	model=rf_tfidf_vectorizer	accuracy=0.9526
+16-12-08 21:54:56 INFO estimator=mlp	vectorizer=count_vectorizer	best_params={'mlp__hidden_layer_sizes': 32, 'mlp__learning_rate': 'constant', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 21:54:56 INFO proportion=0.7	data_size=4840	model=mlp_count_vectorizer	accuracy=0.9687
+16-12-08 21:55:28 INFO estimator=svc	vectorizer=count_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 21:55:28 INFO proportion=0.7	data_size=4840	model=svc_count_vectorizer	accuracy=0.9699
+16-12-08 21:55:36 INFO estimator=lr	vectorizer=count_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l2', 'lr__C': 0.9}
+16-12-08 21:55:36 INFO proportion=0.7	data_size=4840	model=lr_count_vectorizer	accuracy=0.9755
+16-12-08 21:55:44 INFO estimator=rf	vectorizer=count_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 21:55:44 INFO proportion=0.7	data_size=4840	model=rf_count_vectorizer	accuracy=0.9475
+16-12-08 22:04:02 INFO estimator=mlp	vectorizer=tfidf_vectorizer	best_params={'mlp__hidden_layer_sizes': 64, 'mlp__learning_rate': 'adaptive', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 22:04:02 INFO proportion=0.7	data_size=4840	model=mlp_tfidf_vectorizer	accuracy=0.9664
+16-12-08 22:04:40 INFO estimator=svc	vectorizer=tfidf_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.95, 'svc__tol': 0.005}
+16-12-08 22:04:41 INFO proportion=0.7	data_size=4840	model=svc_tfidf_vectorizer	accuracy=0.9749
+16-12-08 22:04:48 INFO estimator=lr	vectorizer=tfidf_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l1', 'lr__C': 0.95}
+16-12-08 22:04:48 INFO proportion=0.7	data_size=4840	model=lr_tfidf_vectorizer	accuracy=0.9481
+16-12-08 22:04:54 INFO estimator=rf	vectorizer=tfidf_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 22:04:54 INFO proportion=0.7	data_size=4840	model=rf_tfidf_vectorizer	accuracy=0.9516
+16-12-08 22:08:26 INFO estimator=mlp	vectorizer=count_vectorizer	best_params={'mlp__hidden_layer_sizes': 64, 'mlp__learning_rate': 'constant', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 22:08:26 INFO proportion=0.8	data_size=5532	model=mlp_count_vectorizer	accuracy=0.9611
+16-12-08 22:08:45 INFO estimator=svc	vectorizer=count_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 22:08:45 INFO proportion=0.8	data_size=5532	model=svc_count_vectorizer	accuracy=0.9609
+16-12-08 22:08:51 INFO estimator=lr	vectorizer=count_vectorizer	best_params={'lr__tol': 0.001, 'lr__penalty': 'l2', 'lr__C': 0.9}
+16-12-08 22:08:51 INFO proportion=0.8	data_size=5532	model=lr_count_vectorizer	accuracy=0.9704
+16-12-08 22:08:56 INFO estimator=rf	vectorizer=count_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 22:08:56 INFO proportion=0.8	data_size=5532	model=rf_count_vectorizer	accuracy=0.9415
+16-12-08 22:15:10 INFO estimator=mlp	vectorizer=tfidf_vectorizer	best_params={'mlp__hidden_layer_sizes': 32, 'mlp__learning_rate': 'constant', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 22:15:11 INFO proportion=0.8	data_size=5532	model=mlp_tfidf_vectorizer	accuracy=0.9634
+16-12-08 22:15:35 INFO estimator=svc	vectorizer=tfidf_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 22:15:36 INFO proportion=0.8	data_size=5532	model=svc_tfidf_vectorizer	accuracy=0.9697
+16-12-08 22:15:42 INFO estimator=lr	vectorizer=tfidf_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l1', 'lr__C': 0.95}
+16-12-08 22:15:42 INFO proportion=0.8	data_size=5532	model=lr_tfidf_vectorizer	accuracy=0.941
+16-12-08 22:15:47 INFO estimator=rf	vectorizer=tfidf_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 22:15:47 INFO proportion=0.8	data_size=5532	model=rf_tfidf_vectorizer	accuracy=0.9428
+16-12-08 22:17:26 INFO estimator=mlp	vectorizer=count_vectorizer	best_params={'mlp__hidden_layer_sizes': 32, 'mlp__learning_rate': 'constant', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 22:17:26 INFO proportion=0.9	data_size=6223	model=mlp_count_vectorizer	accuracy=0.9473
+16-12-08 22:17:34 INFO estimator=svc	vectorizer=count_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 22:17:34 INFO proportion=0.9	data_size=6223	model=svc_count_vectorizer	accuracy=0.9523
+16-12-08 22:17:38 INFO estimator=lr	vectorizer=count_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l1', 'lr__C': 0.9}
+16-12-08 22:17:38 INFO proportion=0.9	data_size=6223	model=lr_count_vectorizer	accuracy=0.9607
+16-12-08 22:17:41 INFO estimator=rf	vectorizer=count_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 22:17:42 INFO proportion=0.9	data_size=6223	model=rf_count_vectorizer	accuracy=0.9327
+16-12-08 22:21:01 INFO estimator=mlp	vectorizer=tfidf_vectorizer	best_params={'mlp__hidden_layer_sizes': 64, 'mlp__learning_rate': 'constant', 'mlp__max_iter': 100, 'mlp__tol': 0.001}
+16-12-08 22:21:01 INFO proportion=0.9	data_size=6223	model=mlp_tfidf_vectorizer	accuracy=0.9536
+16-12-08 22:21:11 INFO estimator=svc	vectorizer=tfidf_vectorizer	best_params={'svc__kernel': 'linear', 'svc__C': 0.9, 'svc__tol': 0.005}
+16-12-08 22:21:12 INFO proportion=0.9	data_size=6223	model=svc_tfidf_vectorizer	accuracy=0.9625
+16-12-08 22:21:15 INFO estimator=lr	vectorizer=tfidf_vectorizer	best_params={'lr__tol': 0.005, 'lr__penalty': 'l1', 'lr__C': 0.9}
+16-12-08 22:21:15 INFO proportion=0.9	data_size=6223	model=lr_tfidf_vectorizer	accuracy=0.9022
+16-12-08 22:21:19 INFO estimator=rf	vectorizer=tfidf_vectorizer	best_params={'rf__bootstrap': False, 'rf__n_estimators': 20}
+16-12-08 22:21:19 INFO proportion=0.9	data_size=6223	model=rf_tfidf_vectorizer	accuracy=0.9309
+16-12-08 22:21:19 INFO plot tfidf point line, models name=['mlp_tfidf_vectorizer', 'svc_tfidf_vectorizer', 'lr_tfidf_vectorizer', 'rf_tfidf_vectorizer', 'mlp_tfidf_vectorizer', 'svc_tfidf_vectorizer', 'lr_tfidf_vectorizer', 'rf_tfidf_vectorizer', 'mlp_tfidf_vectorizer', 'svc_tfidf_vectorizer', 'lr_tfidf_vectorizer', 'rf_tfidf_vectorizer', 'mlp_tfidf_vectorizer', 'svc_tfidf_vectorizer', 'lr_tfidf_vectorizer', 'rf_tfidf_vectorizer', 'mlp_tfidf_vectorizer', 'svc_tfidf_vectorizer', 'lr_tfidf_vectorizer', 'rf_tfidf_vectorizer']
+16-12-08 22:21:20 INFO plot count point line, models name=['mlp_count_vectorizer', 'svc_count_vectorizer', 'lr_count_vectorizer', 'rf_count_vectorizer', 'mlp_count_vectorizer', 'svc_count_vectorizer', 'lr_count_vectorizer', 'rf_count_vectorizer', 'mlp_count_vectorizer', 'svc_count_vectorizer', 'lr_count_vectorizer', 'rf_count_vectorizer', 'mlp_count_vectorizer', 'svc_count_vectorizer', 'lr_count_vectorizer', 'rf_count_vectorizer', 'mlp_count_vectorizer', 'svc_count_vectorizer', 'lr_count_vectorizer', 'rf_count_vectorizer']
