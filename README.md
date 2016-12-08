@@ -3,8 +3,8 @@ This project mainly focus on the topic of text classification, including english
 Several open project have been used, such as Scikit-Learn, Gensim, Numpy, Pandas, Matplotlib. <br />
 
 ##Evironment:
-Python 2.7
-Scikit-learn 0.18
+Python 2.7 <br />
+Scikit-learn 0.18 <br />
 
 ##Usage:
 python text_classification 
@@ -53,3 +53,7 @@ Normalization:
 
 ####Step 8: Machine Learning Pipeline
 
+###Extension:
+####Ensembles:
+1, Random Forest(Feature selection) + LR/SVM
+2, GBDT(stacking) + LR/SVM
