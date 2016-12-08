@@ -1,10 +1,11 @@
 ##Description:
-###This project mainly focus on the topic of text classification, including english and chinese text.
-###Several open project have been used, such as Scikit-Learn, Gensim, Numpy, Pandas, Matplotlib.
+This project mainly focus on the topic of text classification, including english and chinese text.<br />
+Several open project have been used, such as Scikit-Learn, Gensim, Numpy, Pandas, Matplotlib. <br />
+
 ##Processing Steps of Text Classification:
 ####Step 1: Data Analysis
->1, distribution of all categories
->2, the average lengith of each catogory of the text
+>1, distribution of all categories <br/>
+>2, the average lengith of each catogory of the text<br />
 
 ####Step 2: Text Preprocessing
 Tokenization:
