@@ -11,7 +11,7 @@ python text_classification
 
 ##Result:
 >text_classification/src/result <br />
->count.png <br />
+>![][./src/result/count.png] <br />
 >tfidf.png <br />
 >text_cls.log <br />
 >comparison.csv <br />
@@ -55,5 +55,5 @@ Normalization:
 
 ###Extension:
 ####Ensembles:
-1, Random Forest(Feature selection) + LR/SVM
-2, GBDT(stacking) + LR/SVM
+1, Random Forest(Feature selection) + LR/SVM <br />
+2, GBDT(stacking) + LR/SVM <br />
