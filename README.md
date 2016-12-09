@@ -11,7 +11,7 @@ python text_classification
 
 ##Result:
 >text_classification/src/result <br />
->![image][https://github.com/ustcqi/text_classification/tree/master/src/result/count.png] <br />
+>![image](https://github.com/ustcqi/text_classification/tree/master/src/result/count.png) <br />
 >tfidf.png <br />
 >text_cls.log <br />
 >comparison.csv <br />
