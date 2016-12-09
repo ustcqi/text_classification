@@ -5,6 +5,7 @@ Several open project have been used, such as Scikit-Learn, Gensim, Numpy, Pandas
 ##Evironment:
 Python 2.7 <br />
 Scikit-learn 0.18 <br />
+NLTK 3.2.1<br />
 
 ##Usage:
 python text_classification 
