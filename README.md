@@ -18,7 +18,7 @@ The following figure shows that if we using the BoW represention with our projec
 <br />
 If we using the tfidf represention, the SVM has the best performance.
 >![image](https://github.com/ustcqi/text_classification/blob/master/src/result/tfidf.png) <br />
-When putting BoW and tfidf togethor, the SVM-tfidf model has a 0.9625 accuracy, however LR-count's accuracy is 0.9607 a bit worse than SVM-tfidf. <br />
+When putting BoW and tfidf togethor, the SVM-tfidf model has a 0.9625 accuracy a bit better than LR-BoW which accuracy is 0.9607. <br />
 >text_cls.log <br />
 >comparison.csv <br />
 
