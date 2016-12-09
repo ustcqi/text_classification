@@ -11,16 +11,16 @@ NLTK 3.2.1<br />
 python text_classification.py 
 
 ##Result:
->text_classification/src/result <br />
+text_classification/src/result <br />
 The following figure shows that if we using the BoW represention with our project dataset, the Logistic Regression has the best performance.
 >![image](https://github.com/ustcqi/text_classification/blob/master/src/result/count.png) <br />
 
 <br />
 If we using the tfidf represention, the SVM has the best performance.
->![image](https://github.com/ustcqi/text_classification/blob/master/src/result/tfidf.png) <br />
+![image](https://github.com/ustcqi/text_classification/blob/master/src/result/tfidf.png) <br />
 When putting BoW and tfidf togethor, the SVM-tfidf model has a 0.9625 accuracy a bit better than LR-BoW which accuracy is 0.9607. <br />
->text_cls.log <br />
->comparison.csv <br />
+All results in the following file.
+>src/result/comparison.csv <br />
 
 ##Processing Steps of Text Classification:
 ####Step 1: Data Analysis
