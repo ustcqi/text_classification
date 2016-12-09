@@ -12,13 +12,13 @@ python text_classification.py
 
 ##Result:
 text_classification/src/result <br />
-The following figure shows that if we using the BoW represention with our project dataset, the Logistic Regression has the best performance.
+The following figure shows that if we using the BOW represention with our project dataset, the Logistic Regression has the best performance.
 >![image](https://github.com/ustcqi/text_classification/blob/master/src/result/count.png) <br />
 
 <br />
-If we using the tfidf represention, the SVM has the best performance.
+If we using the TFIDF represention, the SVM has the best performance.
 ![image](https://github.com/ustcqi/text_classification/blob/master/src/result/tfidf.png) <br />
-When putting BoW and tfidf togethor, the SVM-tfidf model has a 0.9625 accuracy a bit better than LR-BoW which accuracy is 0.9607. <br />
+When putting BOW and TFIDF togethor, the SVM-TFIDF model has a 0.9625 accuracy a bit better than LR-BOW which accuracy is 0.9607. <br />
 All results in the following file.
 >src/result/comparison.csv <br />
 
@@ -43,7 +43,7 @@ Normalization:
 >2, Removing the words appearance in all the documents and with high frequency <br />
 
 ####Step 4: Represention of the text
->1, tfidf <br />
+>1, TFIDF <br />
 >2, Bag-of-words <br />
 >3, One-Hot <br />
 >4, word2vec <br />
