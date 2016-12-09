@@ -11,8 +11,12 @@ python text_classification
 
 ##Result:
 >text_classification/src/result <br />
+The following figure shows that if we using the BoW represention with our project dataset, the Logistic Regression has the best performance.
 >![image](https://github.com/ustcqi/text_classification/blob/master/src/result/count.png) <br />
->tfidf.png <br />
+
+<br />
+If we using the tfidf represention the SVM has the best performance.
+>![image](https://github.com/ustcqi/text_classification/blob/master/src/result/tfidf.png) <br />
 >text_cls.log <br />
 >comparison.csv <br />
 
