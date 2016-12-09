@@ -58,7 +58,7 @@ Normalization:
 
 ####Step 8: Machine Learning Pipeline
 
-###Extension:
+###Extension and Further plan:
 ####Ensembles:
 1, Random Forest(Feature selection) + LR/SVM <br />
 2, GBDT(stacking) + LR/SVM <br />
