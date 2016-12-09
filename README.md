@@ -1,6 +1,6 @@
 ##Description:
-This project mainly focus on the topic of text classification, including english and chinese text.<br />
-Several open project have been used, such as Scikit-Learn, Gensim, Numpy, Pandas, Matplotlib. <br />
+This project mainly focus on the topic of text classification, including the english and chinese text.<br />
+Several open projects have been used, such as Scikit-Learn, NLTK, Gensim, Numpy, Pandas, Matplotlib. <br />
 
 ##Evironment:
 Python 2.7 <br />
@@ -8,7 +8,7 @@ Scikit-learn 0.18 <br />
 NLTK 3.2.1<br />
 
 ##Usage:
-python text_classification 
+python text_classification.py 
 
 ##Result:
 >text_classification/src/result <br />
@@ -16,7 +16,7 @@ The following figure shows that if we using the BoW represention with our projec
 >![image](https://github.com/ustcqi/text_classification/blob/master/src/result/count.png) <br />
 
 <br />
-If we using the tfidf represention the SVM has the best performance.
+If we using the tfidf represention, the SVM has the best performance.
 >![image](https://github.com/ustcqi/text_classification/blob/master/src/result/tfidf.png) <br />
 When putting BoW and tfidf togethor, the SVM-tfidf model has a 0.9625 accuracy, however LR-count's accuracy is 0.9607 a bit worse than SVM-tfidf. <br />
 >text_cls.log <br />
