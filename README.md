@@ -59,8 +59,12 @@ Normalization:
 ####Step 8: Machine Learning Pipeline
 
 ###Extension and Further plan:
-####Ensembles:
+####Ensembles:(not used in this project)
 1, Random Forest(Feature selection) + LR/SVM <br />
 2, GBDT(stacking) + LR/SVM <br />
 3, SVM + CNN  <br />
 4, SVM + CNN + RNN <br />
+
+####Further plan 
+1, Bayes Optimization for seaching the Hyperparameters instead of GridSearch.
+
