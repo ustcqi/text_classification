@@ -9,6 +9,7 @@ NLTK 3.2.1<br />
 
 ##Usage:
 python text_classification.py 
+python text_cls_w2v.py
 
 ##Result:
 text_classification/src/result <br />
@@ -19,6 +20,9 @@ The following figure shows that if we using the BOW represention with our projec
 If we using the TFIDF represention, the SVM has the best performance.
 ![image](https://github.com/ustcqi/text_classification/blob/master/src/result/tfidf.png) <br />
 When putting BOW and TFIDF togethor, the SVM-TFIDF model has a 0.9625 accuracy a bit better than LR-BOW which accuracy is 0.9607. <br />
+
+<br />
+Word Embedding is this project doesn't work well. If you run the script text_cls_w2v.py you will get a worse result compared to previous results.
 All results in the following file.
 >src/result/comparison.csv <br />
 
