@@ -62,3 +62,5 @@ Normalization:
 ####Ensembles:
 1, Random Forest(Feature selection) + LR/SVM <br />
 2, GBDT(stacking) + LR/SVM <br />
+3, SVM + CNN  <br />
+4, SVM + CNN + RNN <br />
